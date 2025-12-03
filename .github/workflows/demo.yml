@@ -2,9 +2,7 @@ name: Events Demo 1
 on: 
   push:
    branches:
-     - master
-   paths:
-     - dev*  
+     - master  
   pull_request:
      types: [opened]
 jobs:
